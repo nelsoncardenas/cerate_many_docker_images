@@ -1,0 +1,14 @@
+version: '3'
+services:
+  app_a:
+    build:
+      context: .
+      dockerfile: ./docker/app_a/Dockerfile
+  app_b:
+    build:
+      context: .
+      dockerfile: ./docker/app_b/Dockerfile
+  app_c:
+    build:
+      context: .
+      dockerfile: ./docker/app_c/Dockerfile
